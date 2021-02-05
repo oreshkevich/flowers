@@ -42,31 +42,31 @@ $(document).ready(function () {
     $("#review-1").on('click', function () {
 
         $.fancybox.open([{
-                src: 'https://source.unsplash.com/IvfoDk30JnI/1500x1000',
+                src: 'https://source.unsplash.com/0IsBu45B3T8/1500x1000',
                 opts: {
                     caption: 'First caption',
-                    thumb: 'https://source.unsplash.com/IvfoDk30JnI/240x160'
+                    thumb: 'https://source.unsplash.com/0IsBu45B3T8/240x160'
                 }
             },
             {
-                src: '../img/flowers/flowers_1.jpg',
+                src: 'https://source.unsplash.com/_8a_6Hlj3FY/1500x1000',
                 opts: {
                     caption: 'Second caption',
-                    thumb: '../img/flowers/flowers_11.jpg'
+                    thumb: 'https://source.unsplash.com/_8a_6Hlj3FY/240x160'
                 }
             },
             {
-                src: 'https://source.unsplash.com/0JYgd2QuMfw/1500x1000',
+                src: 'https://source.unsplash.com/9T1InwNmNmo/1500x1000',
                 opts: {
                     caption: 'Third caption',
-                    thumb: 'https://source.unsplash.com/0JYgd2QuMfw/240x160'
+                    thumb: 'https://source.unsplash.com/9T1InwNmNmo/240x160'
                 }
             },
             {
-                src: 'https://source.unsplash.com/0JYgd2QuMfw/1500x1000',
+                src: 'https://source.unsplash.com/tw4olON9liM/1500x1000',
                 opts: {
                     caption: 'Fourth caption',
-                    thumb: 'https://source.unsplash.com/0JYgd2QuMfw/240x160'
+                    thumb: 'https://source.unsplash.com/tw4olON9liM/240x160'
                 }
             },
         ], {
@@ -77,4 +77,30 @@ $(document).ready(function () {
         });
 
     });
+
+
+const counter = function () {
+  const btns = document.querySelectorAll('.counter-button');
+  
+  
+    btns.forEach(btn => {
+      btn.addEventListener('click', function () {
+        const direction = this.dataset.direction;
+        const inp = this.parentElement.querySelector('.counter-input');
+        const currentValue = +inp.value;
+        let newValue;
+  
+        if (direction === 'plus') {
+          newValue = currentValue + 1;
+        } else {
+          newValue = currentValue - 1 > 0 ? currentValue - 1 : 0;
+        }
+  
+        inp.value = newValue;
+      })
+    })
+  
+  }
+  
+  counter();
 });
