@@ -3,6 +3,6 @@
 - HTML
 - SCC
 - Bootstrap
--JQwery
+- JQwery
 - fancybox
 - Swiper Slider JS
