@@ -35,6 +35,7 @@ body {
 
 .header {
     padding-top: 50px;
+
 }
 
 .header-description {
@@ -83,7 +84,20 @@ body {
     padding-bottom: 77px;
     text-align: center;
     border-bottom: 1px solid #4c4c4c;
+
 }
+
+.flowers-petals {
+    background: url("../img/flowers/flowers_petals.png") no-repeat;
+}
+
+.flowers-petals-1 {
+    float: right;
+    width: 71px;
+    height: 61px;
+}
+
+
 
 .hero-title {
     margin: auto;
@@ -94,6 +108,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.34px;
     max-width: 652px;
+
 }
 
 .hero-description {
@@ -104,9 +119,10 @@ body {
     letter-spacing: 0.18px;
     margin: auto;
     max-width: 590px;
+
 }
 
-
+/*  */
 .flowers-slider {
     width: 100%;
     margin-bottom: 83px;
@@ -117,13 +133,16 @@ body {
     --swiper-navigation-size: 20px;
     --swiper-theme-color: #fff;
 }
+
 .swiper-button-prev:hover {
-  color: #ff2e55;
+    color: #ff2e55;
 }
 
 .swiper-button-next:hover {
-  color: #ff2e55;
+    color: #ff2e55;
 }
+
+
 
 .hero-cta {
     display: block;
@@ -437,6 +456,7 @@ body {
     color: #101010;
 }
 
+
 .modal {
     display: none;
 }
@@ -456,9 +476,17 @@ body {
     font-size: 18px;
 }
 
+.hidden {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .header {
         text-align: center;
+    }
+
+    .flowers-petals {
+        background: none;
     }
 
     .header-contacts {
