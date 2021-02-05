@@ -115,6 +115,14 @@ body {
 
 :root {
     --swiper-navigation-size: 20px;
+    --swiper-theme-color: #fff;
+}
+.swiper-button-prev:hover {
+  color: #ff2e55;
+}
+
+.swiper-button-next:hover {
+  color: #ff2e55;
 }
 
 .hero-cta {
