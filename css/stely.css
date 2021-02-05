@@ -1,0 +1,502 @@
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('../fonts/GothamPro-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro Medium';
+    src: url('../fonts/GothamPro-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #292929;
+    color: #fff;
+    font-family: 'Gotham Pro'sans-serif;
+    margin: 0;
+}
+
+.header {
+    padding-top: 50px;
+}
+
+.header-description {
+    font-family: 'Gotham Pro Light';
+    font-size: 12px;
+    letter-spacing: 0.12px;
+}
+
+.text-color-red {
+    font-family: 'Gotham Pro Medium';
+    color: #ff3469;
+}
+
+.header-contacts {
+    text-align: right;
+}
+
+.header-phone {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+
+    display: block;
+}
+
+.header-info {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 7px;
+    display: block;
+
+}
+
+.callback {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ff3469;
+    display: block;
+
+    margin-top: 16px;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 77px;
+    text-align: center;
+    border-bottom: 1px solid #4c4c4c;
+}
+
+.hero-title {
+    margin: auto;
+    font-family: 'Gotham Pro Medium';
+    font-size: 34px;
+    margin-bottom: 34px;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.34px;
+    max-width: 652px;
+}
+
+.hero-description {
+    font-family: 'Gotham Pro Light';
+    font-size: 18px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 0.18px;
+    margin: auto;
+    max-width: 590px;
+}
+
+
+.flowers-slider {
+    width: 100%;
+    margin-bottom: 83px;
+    margin-top: 87px;
+}
+
+:root {
+    --swiper-navigation-size: 20px;
+}
+
+.hero-cta {
+    display: block;
+    font-family: 'Gotham Pro Light';
+    margin-bottom: 36px;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+.button {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 30px 65px 26px 65px;
+    background-color: #ff2e55;
+    margin-top: 36px;
+    cursor: pointer;
+    border: none;
+}
+
+.reviews {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.reviews-slider {
+    margin-top: 98px;
+}
+
+
+.review-slide {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.review-image {
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: 'Gotham Pro Light';
+    position: relative;
+    margin-right: 50px;
+}
+
+.review-image:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+
+.review-image>* {
+    position: relative;
+}
+
+.review-image-1 {
+    background: #000 url('../img/reviews/review-1.jpg') center;
+}
+
+.review-image-2 {
+    background: #000 url('../img/reviews/review-2.jpg') center;
+}
+
+.review-name {
+    margin-bottom: 7px;
+}
+
+.review-text {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0.18px;
+}
+
+.review-link {
+    color: #f24841;
+
+}
+
+.section-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3px;
+}
+
+.advantages {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    border-bottom: 1px solid #4c4c4c;
+}
+
+.advantages-wrapper {
+    min-height: 85px;
+    margin-bottom: 30px;
+}
+
+.advantages-title {
+    font-size: 20px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    max-width: 270px;
+    margin: auto;
+}
+
+.goods {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-description {
+    font-style: 18px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    border: 3px solid #ffffff;
+    padding: 33px 35px 30px 35px;
+    margin-top: 27px;
+}
+
+.card-title {
+    margin-top: 23px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.card-label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+
+.color-label {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.color-input {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: -9;
+}
+
+.color-label.white {
+    background-color: #fff;
+}
+
+.color-label.beige {
+    background-color: #f7b496;
+}
+
+.color-label.pink {
+    background-color: #ed366e;
+}
+
+.color-label.red {
+    background-color: #ff0000;
+}
+
+.color-label.blue {
+    background-color: #12129d;
+}
+
+.counter-input {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    color: #fff;
+    background-color: #292929;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.counter-button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background-color: #292929;
+    border: none;
+
+}
+
+.card-button {
+    font-style: 14px;
+    width: 100%;
+    padding: 16px 10px 13px 10px;
+}
+
+.more {
+    font-style: 14px;
+    color: #f24841;
+    display: block;
+    text-align: center;
+    margin-top: 39px;
+    padding: 10px;
+}
+
+.more:after {
+    display: inline-block;
+    content: '';
+    width: 10px;
+    height: 4px;
+    background: url('../img/caret.png') no-repeat center;
+    margin-left: 14px;
+    vertical-align: middle;
+}
+
+.offer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.offer-link {
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 65px;
+
+}
+
+.offer-label {
+    display: block;
+    margin-bottom: 22px;
+    font-style: 14px;
+
+}
+
+.offer-phone {
+    font-size: 36px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 33px;
+}
+
+.footer-menu-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.footer-menu-item {
+    margin-right: 30px;
+}
+
+.social {
+    font-size: 16px;
+}
+
+.footer-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer-info {
+    text-align: right;
+}
+
+.footer-phone {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.footer-2 {
+    padding-top: 48px;
+    padding-bottom: 44px;
+    background-color: #fff;
+}
+
+.footer-2-description {
+    color: #292929;
+    font-family: 'Gotham Pro Light';
+    font-size: 12px;
+    letter-spacing: 0.12px;
+}
+
+.footer-2-callback {
+    font-family: 'MyriadPro';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #101010;
+}
+
+.modal {
+    display: none;
+}
+
+.modal-title {
+    color: #292929;
+}
+
+.modal-button {
+    width: 100%;
+}
+
+.modal-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+
+    .header-contacts {
+        text-align: center;
+    }
+
+    .hero {
+        padding-top: 50px;
+    }
+
+    .hero-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .button {
+        padding: 20px 40px;
+    }
+
+    .colors {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .card-label {
+        margin: 20px auto;
+        display: block;
+    }
+
+    .footer-info {
+        text-align: left;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .offer,
+    .footer-info,
+    .offer-title {
+        text-align: left;
+    }
+
+}
